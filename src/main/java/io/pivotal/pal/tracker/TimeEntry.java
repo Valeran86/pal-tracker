@@ -7,8 +7,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Getter
-@Setter
+@Data
 public class TimeEntry {
     private long id;
     private long projectId;
